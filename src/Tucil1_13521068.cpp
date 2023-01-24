@@ -92,7 +92,7 @@ void randomkartu()
     kartu3 = kartuToValue(masukan3);
     kartu4 = kartuToValue(masukan4);
     cout << " " << endl;
-    cout << "Kartu yang terpilih adalah " << masukan1 << ", " << masukan2 << ", " << masukan3 << ", dan " << masukan4 << endl;
+    cout << " Kartu yang terpilih adalah " << masukan1 << ", " << masukan2 << ", " << masukan3 << ", dan " << masukan4 << endl;
 
 }
 
@@ -107,7 +107,7 @@ void inputKartu()
 
     cout << "  " << endl;
     cout << " Selamat Datang di 24 Card Game Solver" << endl;
-    cout << " Silahkan Memilih Masukan :" << endl;
+    cout << " Silahkan Pilih Masukan :" << endl;
     cout << " 1. Keyboard" << endl;
     cout << " 2. Random" << endl;
     cout << "  " << endl;
@@ -334,10 +334,8 @@ void save(vector <string> hasil)
 
 int main() 
 {
-    vector<string> hasil;
-    
+    vector<string> hasil; 
     inputKartu();
-
     clock_t start = clock();
 
     check24(kartu1, kartu2, kartu3, kartu4, &hasil);
@@ -366,7 +364,6 @@ int main()
     check24(kartu4, kartu3, kartu2, kartu1, &hasil);
 
     printSolution(hasil);
-
     double end = clock();
     cout << " " << endl;
     cout << " Waktu eksekuksi : " << (float)(clock() - start)/CLOCKS_PER_SEC << " detik" << endl;
