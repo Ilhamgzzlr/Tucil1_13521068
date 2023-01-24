@@ -1,1 +1,1 @@
-# Tucil1_13521068
+# Tugas Kecil 1 Strategi Algoritma
