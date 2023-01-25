@@ -14,7 +14,7 @@ int solution = 0 ;
 // Deklarasi fungsi
 float kartuToValue(string kartu)
 
-// Mengubah kartu dari string menjadi float
+// Mengubah kartu dari string menjadi int
 
 {
     if (kartu == "A") {
