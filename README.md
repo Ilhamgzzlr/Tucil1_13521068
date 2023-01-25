@@ -32,3 +32,8 @@ menemukan solusi untuk membuat kumpulan nilainya menjadi 24.
 2. If you're in UNIX based OS type ./run.sh in terminal to run program.
 
 ## Library 
+1. iostream(c++)
+2. string(c++)
+3. vector(c++)
+4. fstream(c++)
+
