@@ -27,4 +27,3 @@ menemukan solusi untuk membuat kumpulan nilainya menjadi 24.
 1. Clone this repository.
 1. If you're in windows type ./run.bat in terminal to run program.
 2. If you're in UNIX based OS type ./run.sh in terminal to run program.
-Image
