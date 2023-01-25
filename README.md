@@ -9,6 +9,9 @@
 
 This is a project in order to fulfill the requirements of the study of Strategi Algoritma.
 
+## Bahasa dan Algoritma
+Pada tugas kecil ini, digunakan suatu algoritma menggunakan Bahasa C++ dan dengan pendekatan brute force untuk mendapatkan solusi dari permainan kartu 24.
+
 ## Penjelasan Ringkas Program
 Permainan kartu 24 adalah permainan kartu aritmatika dengan tujuan mencari cara untuk 
 mengubah 4 buah angka random sehingga mendapatkan hasil akhir sejumlah 24. Permainan 
@@ -27,3 +30,5 @@ menemukan solusi untuk membuat kumpulan nilainya menjadi 24.
 1. Clone this repository.
 1. If you're in windows type ./run.bat in terminal to run program.
 2. If you're in UNIX based OS type ./run.sh in terminal to run program.
+
+## Library 
